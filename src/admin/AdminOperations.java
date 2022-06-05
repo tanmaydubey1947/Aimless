@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class AdminOperations {
 
 	public void giveAdminRights() {
-		System.out.println("CHOOSE FROM THE BELOW OPTIONS");
+		System.out.println("CHOOSE FROM THE BELOW OPTIONS"); // option starts
 		System.out.println("1. Add Employee");
 		System.out.println("2. Remove Employee");
 		Scanner s = new Scanner(System.in);
