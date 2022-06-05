@@ -11,6 +11,7 @@ public class AdminOperations {
 		System.out.println("CHOOSE FROM THE BELOW OPTIONS"); // option starts
 		System.out.println("1. Add Employee");
 		System.out.println("2. Remove Employee");
+		@SuppressWarnings("resource")
 		Scanner s = new Scanner(System.in);
 
 		int AdminBankingOptions = s.nextInt();
@@ -33,6 +34,7 @@ public class AdminOperations {
 
 	public void addEmployee() {
 		System.out.println("PLEASE FILL THE FOLLOWING DETAILS");
+		@SuppressWarnings("resource")
 		Scanner s = new Scanner(System.in);
 
 		System.out.println("Enter Employee Id:");
@@ -105,6 +107,7 @@ public class AdminOperations {
 			con.close();
 
 			System.out.println("Press 1 to Continue... Or Exit");
+			@SuppressWarnings("resource")
 			Scanner s = new Scanner(System.in);
 			int checkcontinue = s.nextInt();
 			s.nextLine();
